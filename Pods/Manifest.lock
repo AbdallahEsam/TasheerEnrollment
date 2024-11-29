@@ -1,0 +1,24 @@
+PODS:
+  - DocumentReader (7.4.3826):
+    - RegulaCommon (= 7.4.727)
+  - DocumentReaderOCRRFID (7.4.9827)
+  - RegulaCommon (7.4.727)
+
+DEPENDENCIES:
+  - DocumentReader
+  - DocumentReaderOCRRFID
+
+SPEC REPOS:
+  trunk:
+    - DocumentReader
+    - DocumentReaderOCRRFID
+    - RegulaCommon
+
+SPEC CHECKSUMS:
+  DocumentReader: 9d61518017a38df2a885fe5325bd88f9d36e3438
+  DocumentReaderOCRRFID: 98cd1ef749b2aaaad8664fa50f39de48396f6ecc
+  RegulaCommon: 2033e45850dba9260b0116c83ae3ce2773fbf082
+
+PODFILE CHECKSUM: 3181b669f8c366bb3268763a0b5e475c7acbf585
+
+COCOAPODS: 1.16.2

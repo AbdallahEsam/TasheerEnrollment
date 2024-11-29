@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 346A77C2075008381F00F9519797D97E /* Build configuration list for PBXAggregateTarget "RegulaCommon" */;
+			buildPhases = (
+				C0A644B697301835451AD04604C66971 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = RegulaCommon;
+		};
+		A66EC006F00F0BFCF640E7ACE4FEC8B1 /* DocumentReader */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D5F976AEE2133F967B8DEA9B20E6A07F /* Build configuration list for PBXAggregateTarget "DocumentReader" */;
+			buildPhases = (
+				D9AA7F614E3A851744F9D8BBA5C90677 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				437FFD667BA343D739EDAF4FCFD16FCB /* PBXTargetDependency */,
+			);
+			name = DocumentReader;
+		};
+		B76897E07CB13F8BDF3BF7830E4EEF40 /* DocumentReaderOCRRFID */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 596A6A67B0299CCC2A778143442C92CB /* Build configuration list for PBXAggregateTarget "DocumentReaderOCRRFID" */;
+			buildPhases = (
+				4A75E417512F221471EB2C6840C67481 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = DocumentReaderOCRRFID;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		107AB4DA18C0B15C1A047B56ABA59BFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C3CFC125F165B37604CFD4C361C89394 /* Pods-TasheerEnrollment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F9CFF82292D936301A4AC7DFC5055 /* Pods-TasheerEnrollment-dummy.m */; };
+		EE6D09B1EA055C5FF8791EBED9518FBC /* Pods-TasheerEnrollment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A3BDAAE67741D8CFB8FA9893A938E08 /* Pods-TasheerEnrollment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EC93873BCA2CEB763DCA7029324EBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B76897E07CB13F8BDF3BF7830E4EEF40;
+			remoteInfo = DocumentReaderOCRRFID;
+		};
+		659BC924FCCC93ACB60B4351F71FC3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5111B24D67EC6553E3EB451E2EE962AF;
+			remoteInfo = RegulaCommon;
+		};
+		7DC29D9A3FED02E6B6CAE692C24A7186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5111B24D67EC6553E3EB451E2EE962AF;
+			remoteInfo = RegulaCommon;
+		};
+		869AC4634ADB72F63EE211615978CF3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66EC006F00F0BFCF640E7ACE4FEC8B1;
+			remoteInfo = DocumentReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012F6AC36CDFA18002FE820B31771329 /* Pods-TasheerEnrollment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TasheerEnrollment-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C0898ABCFEC496ABFA0A1FA82C708CD /* DocumentReader.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = DocumentReader.xcframework; sourceTree = "<group>"; };
+		21A432A820FDB44A12D0E54F46FDD4B4 /* RegulaCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegulaCommon.debug.xcconfig; sourceTree = "<group>"; };
+		2B136743BFC8A376B4C625EFCF9B9674 /* DocumentReaderCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = DocumentReaderCore.xcframework; sourceTree = "<group>"; };
+		2FEAA9ACF66FC2A84AA4EBE1329EA2E2 /* Pods-TasheerEnrollment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TasheerEnrollment-acknowledgements.markdown"; sourceTree = "<group>"; };
+		324EC99B39ACD4579174EFD2E382BA84 /* DocumentReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DocumentReader.debug.xcconfig; sourceTree = "<group>"; };
+		3251009C1E826F03BA7258FBA65B1330 /* DocumentReader-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DocumentReader-xcframeworks.sh"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		486730D5EAE4D35F31BF4FB3DBDAA2FC /* Pods-TasheerEnrollment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasheerEnrollment.debug.xcconfig"; sourceTree = "<group>"; };
+		55166E07B545394CE940F757FF552CE8 /* DocumentReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DocumentReader.release.xcconfig; sourceTree = "<group>"; };
+		7DE10D54BA832B60A81115E7E19A2DA5 /* Pods-TasheerEnrollment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TasheerEnrollment.modulemap"; sourceTree = "<group>"; };
+		882D445224C9962AD5C676C88FA59AFB /* RegulaCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = RegulaCommon.xcframework; sourceTree = "<group>"; };
+		8A3BDAAE67741D8CFB8FA9893A938E08 /* Pods-TasheerEnrollment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TasheerEnrollment-umbrella.h"; sourceTree = "<group>"; };
+		8BC8B26D3FE2F3DD43C1C239CF1C0A92 /* DocumentReaderOCRRFID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DocumentReaderOCRRFID.release.xcconfig; sourceTree = "<group>"; };
+		8EB34058B7094FB6749D7192985B69F1 /* DocumentReaderOCRRFID-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DocumentReaderOCRRFID-xcframeworks.sh"; sourceTree = "<group>"; };
+		919F9CFF82292D936301A4AC7DFC5055 /* Pods-TasheerEnrollment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TasheerEnrollment-dummy.m"; sourceTree = "<group>"; };
+		9C4F44CCBD8913155084C9389D4A70D1 /* Pods-TasheerEnrollment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TasheerEnrollment.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF01D8651E94A59E4CF4F5E5106AAFC2 /* DocumentReaderOCRRFID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DocumentReaderOCRRFID.debug.xcconfig; sourceTree = "<group>"; };
+		B5A120EF9CC457D00163BC821A967A27 /* RegulaCommon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RegulaCommon-xcframeworks.sh"; sourceTree = "<group>"; };
+		BBE4FDC71447C0921A2D265E5FB15C64 /* RegulaCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RegulaCommon.release.xcconfig; sourceTree = "<group>"; };
+		BC96D5F14A52BA418D1DE6AA33D8580C /* Pods-TasheerEnrollment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TasheerEnrollment-Info.plist"; sourceTree = "<group>"; };
+		ECD2CFA206400046A733AC2AAA643834 /* Pods-TasheerEnrollment */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TasheerEnrollment"; path = Pods_TasheerEnrollment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A2842EB75DFA9393F5382837D9D7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107AB4DA18C0B15C1A047B56ABA59BFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069E54803449A3B194D275C89D34DDDD /* DocumentReaderOCRRFID */ = {
+			isa = PBXGroup;
+			children = (
+				21CC0B269F459BDE16F4567274A245A4 /* Frameworks */,
+				639A7CD4BC5F5D58909EDB1F5A0A634B /* Support Files */,
+			);
+			name = DocumentReaderOCRRFID;
+			path = DocumentReaderOCRRFID;
+			sourceTree = "<group>";
+		};
+		13EC16E922AD33DE50E7D88CA8514CF3 /* RegulaCommon */ = {
+			isa = PBXGroup;
+			children = (
+				DC057CFAEA8CB3A912F1BF2D7001389E /* Frameworks */,
+				DC87C47223D57686FADE4FA92F290C8F /* Support Files */,
+			);
+			name = RegulaCommon;
+			path = RegulaCommon;
+			sourceTree = "<group>";
+		};
+		21CC0B269F459BDE16F4567274A245A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B136743BFC8A376B4C625EFCF9B9674 /* DocumentReaderCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		249C68B33978A2A6435A924DEA9930A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C0898ABCFEC496ABFA0A1FA82C708CD /* DocumentReader.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		431079F4F4FA9C16CBEA9EC49D0284C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7443D0023973C176F97D7740E8E0C2 /* DocumentReader */,
+				069E54803449A3B194D275C89D34DDDD /* DocumentReaderOCRRFID */,
+				13EC16E922AD33DE50E7D88CA8514CF3 /* RegulaCommon */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		480054733C59F335846C61328AE97E90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3251009C1E826F03BA7258FBA65B1330 /* DocumentReader-xcframeworks.sh */,
+				324EC99B39ACD4579174EFD2E382BA84 /* DocumentReader.debug.xcconfig */,
+				55166E07B545394CE940F757FF552CE8 /* DocumentReader.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DocumentReader";
+			sourceTree = "<group>";
+		};
+		508D16394A452495ED719B4E57AD18D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD2CFA206400046A733AC2AAA643834 /* Pods-TasheerEnrollment */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639A7CD4BC5F5D58909EDB1F5A0A634B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB34058B7094FB6749D7192985B69F1 /* DocumentReaderOCRRFID-xcframeworks.sh */,
+				AF01D8651E94A59E4CF4F5E5106AAFC2 /* DocumentReaderOCRRFID.debug.xcconfig */,
+				8BC8B26D3FE2F3DD43C1C239CF1C0A92 /* DocumentReaderOCRRFID.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DocumentReaderOCRRFID";
+			sourceTree = "<group>";
+		};
+		AB5C03D088E6162B836FA12CEEBA729F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D971F370E9B6BCB1F78B54A67E481400 /* Pods-TasheerEnrollment */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CD7443D0023973C176F97D7740E8E0C2 /* DocumentReader */ = {
+			isa = PBXGroup;
+			children = (
+				249C68B33978A2A6435A924DEA9930A4 /* Frameworks */,
+				480054733C59F335846C61328AE97E90 /* Support Files */,
+			);
+			name = DocumentReader;
+			path = DocumentReader;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				431079F4F4FA9C16CBEA9EC49D0284C5 /* Pods */,
+				508D16394A452495ED719B4E57AD18D8 /* Products */,
+				AB5C03D088E6162B836FA12CEEBA729F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D971F370E9B6BCB1F78B54A67E481400 /* Pods-TasheerEnrollment */ = {
+			isa = PBXGroup;
+			children = (
+				7DE10D54BA832B60A81115E7E19A2DA5 /* Pods-TasheerEnrollment.modulemap */,
+				2FEAA9ACF66FC2A84AA4EBE1329EA2E2 /* Pods-TasheerEnrollment-acknowledgements.markdown */,
+				012F6AC36CDFA18002FE820B31771329 /* Pods-TasheerEnrollment-acknowledgements.plist */,
+				919F9CFF82292D936301A4AC7DFC5055 /* Pods-TasheerEnrollment-dummy.m */,
+				BC96D5F14A52BA418D1DE6AA33D8580C /* Pods-TasheerEnrollment-Info.plist */,
+				8A3BDAAE67741D8CFB8FA9893A938E08 /* Pods-TasheerEnrollment-umbrella.h */,
+				486730D5EAE4D35F31BF4FB3DBDAA2FC /* Pods-TasheerEnrollment.debug.xcconfig */,
+				9C4F44CCBD8913155084C9389D4A70D1 /* Pods-TasheerEnrollment.release.xcconfig */,
+			);
+			name = "Pods-TasheerEnrollment";
+			path = "Target Support Files/Pods-TasheerEnrollment";
+			sourceTree = "<group>";
+		};
+		DC057CFAEA8CB3A912F1BF2D7001389E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882D445224C9962AD5C676C88FA59AFB /* RegulaCommon.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC87C47223D57686FADE4FA92F290C8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5A120EF9CC457D00163BC821A967A27 /* RegulaCommon-xcframeworks.sh */,
+				21A432A820FDB44A12D0E54F46FDD4B4 /* RegulaCommon.debug.xcconfig */,
+				BBE4FDC71447C0921A2D265E5FB15C64 /* RegulaCommon.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RegulaCommon";
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C08C0224A8CFC77FD5F1B3A82A1E86F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D09B1EA055C5FF8791EBED9518FBC /* Pods-TasheerEnrollment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5CEA36E85C18B6ED4B845BFC96EE12C0 /* Pods-TasheerEnrollment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D502055FF7939F70C142C58896CF9D8A /* Build configuration list for PBXNativeTarget "Pods-TasheerEnrollment" */;
+			buildPhases = (
+				5C08C0224A8CFC77FD5F1B3A82A1E86F /* Headers */,
+				BDD912C28956CEFCA6BC72B6B9CF125D /* Sources */,
+				48A2842EB75DFA9393F5382837D9D7F5 /* Frameworks */,
+				35DD005E2A04468572ECAC162F21F9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C974F6A069A77BE8907CB10B46DF4681 /* PBXTargetDependency */,
+				3C9C4CBF02A9D6F95A11BE1EB966E864 /* PBXTargetDependency */,
+				6754B424512F673A1F2359360DC02F13 /* PBXTargetDependency */,
+			);
+			name = "Pods-TasheerEnrollment";
+			productName = Pods_TasheerEnrollment;
+			productReference = ECD2CFA206400046A733AC2AAA643834 /* Pods-TasheerEnrollment */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 508D16394A452495ED719B4E57AD18D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66EC006F00F0BFCF640E7ACE4FEC8B1 /* DocumentReader */,
+				B76897E07CB13F8BDF3BF7830E4EEF40 /* DocumentReaderOCRRFID */,
+				5CEA36E85C18B6ED4B845BFC96EE12C0 /* Pods-TasheerEnrollment */,
+				5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35DD005E2A04468572ECAC162F21F9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A75E417512F221471EB2C6840C67481 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DocumentReaderOCRRFID/DocumentReaderOCRRFID-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DocumentReaderOCRRFID/DocumentReaderOCRRFID-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/DocumentReaderOCRRFID/DocumentReaderOCRRFID-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A644B697301835451AD04604C66971 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RegulaCommon/RegulaCommon-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/RegulaCommon/RegulaCommon-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/RegulaCommon/RegulaCommon-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9AA7F614E3A851744F9D8BBA5C90677 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DocumentReader/DocumentReader-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/DocumentReader/DocumentReader-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/DocumentReader/DocumentReader-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD912C28956CEFCA6BC72B6B9CF125D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3CFC125F165B37604CFD4C361C89394 /* Pods-TasheerEnrollment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9C4CBF02A9D6F95A11BE1EB966E864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DocumentReaderOCRRFID;
+			target = B76897E07CB13F8BDF3BF7830E4EEF40 /* DocumentReaderOCRRFID */;
+			targetProxy = 5EC93873BCA2CEB763DCA7029324EBC7 /* PBXContainerItemProxy */;
+		};
+		437FFD667BA343D739EDAF4FCFD16FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegulaCommon;
+			target = 5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */;
+			targetProxy = 7DC29D9A3FED02E6B6CAE692C24A7186 /* PBXContainerItemProxy */;
+		};
+		6754B424512F673A1F2359360DC02F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RegulaCommon;
+			target = 5111B24D67EC6553E3EB451E2EE962AF /* RegulaCommon */;
+			targetProxy = 659BC924FCCC93ACB60B4351F71FC3C0 /* PBXContainerItemProxy */;
+		};
+		C974F6A069A77BE8907CB10B46DF4681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DocumentReader;
+			target = A66EC006F00F0BFCF640E7ACE4FEC8B1 /* DocumentReader */;
+			targetProxy = 869AC4634ADB72F63EE211615978CF3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35A2632BF03E976509D0A193BCB7DD0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4F44CCBD8913155084C9389D4A70D1 /* Pods-TasheerEnrollment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasheerEnrollment/Pods-TasheerEnrollment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasheerEnrollment/Pods-TasheerEnrollment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41675CE75CF48105E6262A5730975ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55166E07B545394CE940F757FF552CE8 /* DocumentReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		447FFC1F62628B8DF38F771B129971F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC8B26D3FE2F3DD43C1C239CF1C0A92 /* DocumentReaderOCRRFID.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A4B2FB6211B90C1949A44A381F6D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		871C1DB77F8628E1764E070C9D42F40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF01D8651E94A59E4CF4F5E5106AAFC2 /* DocumentReaderOCRRFID.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0DC1C2C814704734F83EAB35BB20B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6FABCBFED94F53695BBAFA7DEDAC033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486730D5EAE4D35F31BF4FB3DBDAA2FC /* Pods-TasheerEnrollment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TasheerEnrollment/Pods-TasheerEnrollment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TasheerEnrollment/Pods-TasheerEnrollment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C718E11A4445647A75BA3937D8AFC264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324EC99B39ACD4579174EFD2E382BA84 /* DocumentReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4B852D28BB1E20EC37F7BF33173691A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A432A820FDB44A12D0E54F46FDD4B4 /* RegulaCommon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D65DBEEBCC26DA2282B2BB9627112CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBE4FDC71447C0921A2D265E5FB15C64 /* RegulaCommon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		346A77C2075008381F00F9519797D97E /* Build configuration list for PBXAggregateTarget "RegulaCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B852D28BB1E20EC37F7BF33173691A /* Debug */,
+				D65DBEEBCC26DA2282B2BB9627112CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0DC1C2C814704734F83EAB35BB20B21 /* Debug */,
+				44A4B2FB6211B90C1949A44A381F6D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596A6A67B0299CCC2A778143442C92CB /* Build configuration list for PBXAggregateTarget "DocumentReaderOCRRFID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871C1DB77F8628E1764E070C9D42F40A /* Debug */,
+				447FFC1F62628B8DF38F771B129971F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D502055FF7939F70C142C58896CF9D8A /* Build configuration list for PBXNativeTarget "Pods-TasheerEnrollment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FABCBFED94F53695BBAFA7DEDAC033 /* Debug */,
+				35A2632BF03E976509D0A193BCB7DD0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F976AEE2133F967B8DEA9B20E6A07F /* Build configuration list for PBXAggregateTarget "DocumentReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C718E11A4445647A75BA3937D8AFC264 /* Debug */,
+				41675CE75CF48105E6262A5730975ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
